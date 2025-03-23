@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:#333;
+            color:white;
+        }
+
+        p {
+            text-align: center;
+            font-size: 1.2rem;
+            margin: 20px;
+            line-height: 1.6;
+        }
+
+        .pdf {
+            display: flex;
+            flex-direction: column; /* Stack the divs in a column */
+            align-items: center; /* Center the divs horizontally */
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .div {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+            width: 150px;
+            padding: 15px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            margin-bottom: 50px;
+        }
+
+        .div:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+        }
+
+        .div img {
+            width: 100%;
+            height: auto;
+            max-width: 80px;
+            margin-bottom: 10px;
+        }
+
+        .div a {
+            text-decoration: none;
+            color: #333;
+            font-size: 1rem;
+            font-weight: 600;
+            display: block;
+        }
+
+        .div a:hover {
+            color: #007BFF;
+        }
+
+    </style>
+</head>
+<body>
+    <p>Here are PDFs and videos to learn the basics of HTML, CSS, and JavaScript. 
+    Let me know if you need any other details. Thank you!!😊</p>
+
+    <div class="pdf">
+        <div class="div">
+            <a href="./PDF/css_tutorial_english.pdf">
+                <img src="./PDF_name.png" alt="CSS Tutorial">
+                English (CSS)
+            </a>
+        </div>
+        
+        <div class="div">
+            <a href="./PDF/css_tutorial_english.pdf">
+                <img src="./PDF_name.png" alt="CSS Tutorial">
+                English (CSS)
+            </a>
+        </div>
+
+        <div class="div">
+            <a href="./PDF/javascript_tutorial - Copy.pdf">
+                <img src="./PDF_name.png" alt="JavaScript Tutorial">
+                JavaScript
+            </a>
+        </div>
+
+        <div class="div">
+            <a href="./PDF/javascript_tutorial.pdf">
+                <img src="./PDF_name.png" alt="JavaScript Tutorial">
+                JavaScript
+            </a>
+        </div>
+
+        <div class="div">
+            <a href="./PDF/Learn-HTML-in-Tamil-Copy (2) - Copy.pdf">
+                <img src="./PDF_name.png" alt="HTML Tutorial">
+                HTML 
+            </a>
+        </div>
+    </div>
+</body>
+</html>
