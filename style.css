@@ -97,6 +97,7 @@ section h2:after {
 
 /* Hero section with background image */
 .hero {
+    background-image: url("../girl_pic.jpg");
     background: #f8f3d9;
     background-size: cover;
     background-position: center;
@@ -104,7 +105,8 @@ section h2:after {
     padding: 80px 0;
     text-align: center;
     margin-bottom: 20px;
-    background-image: url("../girl_pic.jpg");
+    z-index: 5;
+    
 }
 
 #hero{
